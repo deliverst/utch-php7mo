@@ -22,7 +22,7 @@ public class ClienteServicios {
         if (matchCliente != null) {
             return matchCliente;
         } else {
-            throw new Exception("cliente not found");
+            throw new Exception("No se enontro este Cliente");
         }
     }
 
